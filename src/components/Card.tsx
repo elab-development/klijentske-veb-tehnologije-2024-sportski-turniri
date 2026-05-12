@@ -37,7 +37,17 @@ const Card = ({ id, title, image, sport, location }: CardProps) => {
         <p>Sport: {sport}</p>
         <p>Lokacija: {location}</p>
 
-        <button onClick={() => navigate(`/tournament/${id}`)}>Detalji</button>
+        <button
+          onClick={() => navigate(`/tournament/${id}`)}
+          style={{
+            padding: "10px 16px",
+            borderRadius: "8px",
+            border: "none",
+            cursor: "pointer",
+          }}
+        >
+          Detalji
+        </button>
       </div>
     </div>
   );
