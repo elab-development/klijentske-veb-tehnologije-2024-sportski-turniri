@@ -23,3 +23,7 @@ Klijentska web aplikacija za pregled i organizaciju sportskih turnira.
 npm install
 
 npm run dev
+
+## Autor
+
+Projekat je urađen kao seminarski rad iz Klijentskih veb tehnologija.
