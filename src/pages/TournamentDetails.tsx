@@ -23,7 +23,7 @@ const TournamentDetails = () => {
         src={tournament.image}
         alt={tournament.name}
         style={{
-          width: "400px",
+          width: "450px",
           maxWidth: "100%",
           borderRadius: "12px",
           marginTop: "20px",
