@@ -43,7 +43,7 @@ const Tournaments = () => {
 
       <input
         type="text"
-        placeholder="Search tournaments..."
+        placeholder="Pretraži po sportu ili lokaciji..."
         value={search}
         onChange={(e) => {
           setSearch(e.target.value);
