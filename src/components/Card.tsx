@@ -16,9 +16,9 @@ const Card = ({ id, title, image, sport, location }: CardProps) => {
       style={{
         width: "260px",
         border: "1px solid #ddd",
-        borderRadius: "12px",
+        borderRadius: "20px",
         overflow: "hidden",
-        backgroundColor: "white",
+        backgroundColor: "lightblue",
         boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
       }}
     >
