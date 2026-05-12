@@ -17,6 +17,7 @@ const TournamentDetails = () => {
   return (
     <div style={{ padding: "30px" }}>
       <h1>{tournament.name}</h1>
+      <h3>Detalji izabranog turnira</h3>
 
       <img
         src={tournament.image}
