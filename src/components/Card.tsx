@@ -27,7 +27,7 @@ const Card = ({ id, title, image, sport, location }: CardProps) => {
         alt={title}
         style={{
           width: "100%",
-          height: "160px",
+          height: "180px",
           objectFit: "cover",
         }}
       />
