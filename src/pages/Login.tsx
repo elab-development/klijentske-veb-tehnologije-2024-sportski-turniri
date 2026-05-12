@@ -12,7 +12,16 @@ const Login = () => {
     <div style={{ padding: "30px" }}>
       <h1>Prijava korisnika</h1>
 
-      <button onClick={handleLogin}>Login</button>
+      <button
+        onClick={handleLogin}
+        style={{
+          padding: "10px 18px",
+          borderRadius: "8px",
+          cursor: "pointer",
+        }}
+      >
+        Login
+      </button>
     </div>
   );
 };
