@@ -60,7 +60,7 @@ const Tournaments = () => {
       <div
         style={{
           display: "flex",
-          gap: "20px",
+          gap: "24px",
           flexWrap: "wrap",
           marginTop: "20px",
         }}
