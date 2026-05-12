@@ -14,7 +14,7 @@ const Card = ({ id, title, image, sport, location }: CardProps) => {
   return (
     <div
       style={{
-        width: "260px",
+        width: "280px",
         border: "1px solid #ddd",
         borderRadius: "20px",
         overflow: "hidden",
