@@ -51,7 +51,7 @@ const Tournaments = () => {
         }}
         style={{
           padding: "10px",
-          width: "300px",
+          width: "350px",
           marginTop: "20px",
           marginBottom: "20px",
         }}
