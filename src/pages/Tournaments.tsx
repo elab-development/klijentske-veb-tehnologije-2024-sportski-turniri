@@ -82,7 +82,7 @@ const Tournaments = () => {
           disabled={currentPage === 1}
           onClick={() => setCurrentPage(currentPage - 1)}
         >
-          Prev
+          Prethodna
         </button>
 
         <span style={{ margin: "0 15px" }}>
@@ -93,7 +93,7 @@ const Tournaments = () => {
           disabled={currentPage === totalPages || totalPages === 0}
           onClick={() => setCurrentPage(currentPage + 1)}
         >
-          Next
+          Sledeca
         </button>
       </div>
     </div>
