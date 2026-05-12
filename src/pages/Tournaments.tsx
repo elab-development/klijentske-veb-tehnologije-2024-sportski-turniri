@@ -39,7 +39,7 @@ const Tournaments = () => {
 
   return (
     <div style={{ padding: "30px" }}>
-      <h1>Tournaments</h1>
+      <h1>Sportski Turniri</h1>
 
       <input
         type="text"
