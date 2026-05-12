@@ -10,7 +10,7 @@ const Login = () => {
 
   return (
     <div style={{ padding: "30px" }}>
-      <h1>Login</h1>
+      <h1>Prijava korisnika</h1>
 
       <button onClick={handleLogin}>Login</button>
     </div>
